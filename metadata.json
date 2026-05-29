@@ -1,0 +1,8 @@
+{
+  "name": "The Great Hall: Individualized Universe to Xperience",
+  "description": "Operation Great Hall - Sovereign local intelligence partner and digital ledger.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
