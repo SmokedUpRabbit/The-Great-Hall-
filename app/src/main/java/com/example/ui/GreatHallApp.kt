@@ -1271,7 +1271,7 @@ fun AsyncFileExplorerScreen(
                     modifier = Modifier.weight(1f).fillMaxWidth(),
                     verticalArrangement = Arrangement.spacedBy(10.dp)
                 ) {
-                    items(items = filesPool, key = { it.id }) { file ->
+                    items(filesPool) { file ->
                         var isExpanded by remember { mutableStateOf(false) }
                         Card(
                             colors = CardDefaults.cardColors(containerColor = NearBlack),
